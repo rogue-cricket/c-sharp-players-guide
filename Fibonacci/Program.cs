@@ -37,13 +37,11 @@ namespace Fibonacci
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(Fibonacci(1));
-            Console.WriteLine(Fibonacci(2));
-            Console.WriteLine(Fibonacci(3));
-            Console.WriteLine(Fibonacci(4));
-            Console.WriteLine(Fibonacci(10));
-            Console.WriteLine(Fibonacci(0));
 
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine(Fibonacci(i));
+            }
             Console.ReadKey();
         }
     }
