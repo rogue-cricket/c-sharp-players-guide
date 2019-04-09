@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// The Try It Out!  From page 123 on creating two classes 
+// The Try It Out!  From page 123 on creating two classes, upgraded by the Try It Out! on page 129 about auto-generated properties.
 
 namespace ClassPractice
 {
